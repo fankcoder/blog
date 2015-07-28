@@ -37,6 +37,9 @@ a.rm, a.com { margin-left:8px; padding:9px 12px; background:url(a_bg.gif) repeat
 .search span { display:block; float:left; background:#fff; border:1px solid #dcdcdd; width:250px; padding:0 10px; height:29px; margin:0;}
 .search form .keywords { width:220px; line-height:13px; height:13px; float:left; background:none; border:0; padding:8px 0px; margin:0; font:normal 11px Arial, Helvetica, sans-serif; color:#767676; }
 .search form .button { float:left; margin:0; padding:5px 0 0 0; border:0; position:relative; }
+/*cheerup*/
+.cheerup {margin:0 auto;padding:0px;width:970px;}
+.cheerup span {font-size:14px;}
 /* content */
 .content { padding:10px 0 0 0;}
 .content_resize { margin:0 auto; padding:0; width:970px;}

@@ -19,6 +19,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$','blog.views.blog_list',name='blog_list'),
+    url(r'^index/$','blog.views.blog_list'),
     url(r'^static/(?P<path>.*)$', 'django.views.static.serve',
         {'document_root': '/home/icgoo/pywork/fankblog/blog/static'}),  
     url(r'^comments/', include('django_comments.urls')),

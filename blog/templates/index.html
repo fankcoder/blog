@@ -4,11 +4,11 @@
 <head>
 <title>fank</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href="static/css/style.css" rel="stylesheet" type="text/css" />
+<link href="{{ STATIC_URL }}css/style.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="static/js/cufon-yui.js"></script>
-<script type="text/javascript" src="static/js/arial.js"></script>
-<script type="text/javascript" src="static/js/cuf_run.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/cufon-yui.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/arial.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/cuf_run.js"></script>
 <!-- CuFon ends -->
 </head>
 <body>
@@ -16,16 +16,15 @@
   <div class="header">
     <div class="header_resize">
       <div class="logo">
-        <h1><a href="index.html">Fank <span> Blog</span></a><small>Welcome to fank blog!</small></h1>
+        <h1><a href="index">Fank <span> Blog</span></a><small>Welcome to fank blog!</small></h1>
       </div>
       <div class="clr"></div>
       <div class="menu_nav">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="support.html">Support</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li class="active"><a href="index">Home</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="about">About Me</a></li>
+          <li><a href="contact">Log in</a></li>
         </ul>
        <div class="search">
         <form id="form" name="form" method="post" action="">
@@ -43,6 +42,7 @@
   </div>
   <div class="clr"></div>
   <div class="content">
+   <div class="cheerup"><span>{{ show }}</span></div>
     <div class="content_resize">
       <div class="mainbar">
         <div class="article">
